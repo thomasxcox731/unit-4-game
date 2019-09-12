@@ -9,22 +9,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style2.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style2.css" /> -->
 </head>
 
 <body>
     <!-- Heading and Instructions -->
     <div class="row">
-        <div class="col--lg-12">
+        <div class="col-lg-12">
             <div class="container" id="heading">
                 <h1>Crystals Collector!</h1>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-7">
-            <div class="container" id="instructions">
+        <div class="col-lg-5" id="instructions">
+            <div class="container">
                 <h2>Instructions</h2><br>
                 <p>You will be given a random number at the start of the game.</p>
                 <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to
@@ -41,6 +41,7 @@
     <!-- Crystal Image Buttons  -->
     <div class="row">
         <div class="col-lg-4" id="crystals">
+            <div class="container" id="compNumber">Computer Generated Number</div>
             <div class="container" id="buttons">
                 <button type="button" class="button" id="image1">
                     <img
