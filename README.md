@@ -2,7 +2,9 @@
 This repository contains the homework for Unit 4: JQuery. 
 
 Table of Contents 
-  -index.html
+ 
+ -index.html
+  
   -Assets 
   
     -CSS
