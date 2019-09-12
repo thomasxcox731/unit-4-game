@@ -14,11 +14,11 @@ var losses = 0;
 //function - if a button is clicked, add its number to "total score"
 $(".button").on("click", function () {
     var crystalNumber = Math.floor(Math.random() * (12 - 1 + 1) + 1);
-    console.log(crystalNumber);
+    console.log("crystal number: " + crystalNumber);
     //see image's number value to totalScore 
     totalScore = crystalNumber + totalScore;
-    console.log(totalScore);
-    $("totalScore2").text(totalScore);
+    console.log("total score: " + totalScore);
+    $("#totalScore2").text(totalScore);
     //if total score = compNumber, win++, call restart game()
     if (totalScore === compNumber) {
         wins++;
