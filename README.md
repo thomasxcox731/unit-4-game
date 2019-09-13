@@ -10,7 +10,6 @@ Table of Contents
     -CSS
       -reset.css
       -style.css
-      -style2.css
       
     -Javascript.js
     
