@@ -9,8 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style2.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/CSS/style2.css" /> -->
 </head>
 
 <body>
@@ -43,21 +43,30 @@
         <div class="col-lg-4" id="crystals">
             <div class="container" id="compNumber">Computer Generated Number</div>
             <div class="container" id="buttons">
-                <button type="button" class="button" id="image1">
-                    <img
-                        src="https://www.bhg.com.au/media/17260/060418-crystal-blacktourmaline.jpg?width=720&center=0.0,0.0">
-                </button>
-                <button type="button" class="button" id="image2">
-                    <img
-                        src="https://static01.nyt.com/images/2018/08/07/science/31TB-SPACECRYSTAL1/merlin_141876609_a4b184fe-92ef-4ca7-bfed-2ad295afbbac-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
-                </button>
-                <button type="button" class="button" id="image3">
-                    <img src="http://www.crystaldictionary.com/media/wysiwyg/elmwood-calcite-front-page.jpg">
-                </button>
-                <button type="button" class="button" id="image4">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjpFDcw9iMBAS1lONZQcc3LQcE_Mkm-UNgp6YMWz1mqWJYc77S">
-                </button>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Crystals</div>
+                    <div class="card-body">
+                        <button type="button" class="button" id="image1">
+                            <img
+                                src="https://www.bhg.com.au/media/17260/060418-crystal-blacktourmaline.jpg?width=720&center=0.0,0.0">
+                        </button>
+                        <button type="button" class="button" id="image2">
+                            <img
+                                src="https://static01.nyt.com/images/2018/08/07/science/31TB-SPACECRYSTAL1/merlin_141876609_a4b184fe-92ef-4ca7-bfed-2ad295afbbac-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+                        </button>
+                        <button type="button" class="button" id="image3">
+                            <img src="http://www.crystaldictionary.com/media/wysiwyg/elmwood-calcite-front-page.jpg">
+                        </button>
+                        <button type="button" class="button" id="image4">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjpFDcw9iMBAS1lONZQcc3LQcE_Mkm-UNgp6YMWz1mqWJYc77S">
+                        </button>
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
             </div>
             <!-- User Guesses -->
             <div class="container" id="totalScore1">Your total score is:</div>
@@ -67,7 +76,6 @@
     <!-- Javascript Link  -->
     <script src="Assets/javascript.js"></script>
     <!-- Computer Generated Number and Scoreboard -->
-    <div class="container" id="compNumber">Computer Generated Number</div>
     <div class="container" id="score">
         <h2 id="wins">Wins: </h2>
         <h2 id="losses">Losses: </h2>
